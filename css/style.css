@@ -1,4 +1,8 @@
 .test {
-    color: blue;
-    font-size: 50px;
-  }
+  color: #fff;
+  font-size: 50px;
+}
+
+body {
+  background-color: #b43522;
+}

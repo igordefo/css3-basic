@@ -4,5 +4,12 @@
 }
 
 body {
-  background-color: #b43522;
+  background-color: blue;
+  background-image: url('../img/sky.jpg')
+}
+
+#bg {
+  background-image: url('../img/sky.jpg');
+  height: 500px;
+  border: 1px solid seashell;
 }

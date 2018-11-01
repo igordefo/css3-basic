@@ -3,12 +3,9 @@ body {
   margin: 0;
 }
 
-.padding {
-  border: 2px solid orangered;
-  margin: 20px 30px 15px 0px;
-}
-
-.margin {
-  border: 2px solid orangered;
-  margin: 25px 0px 15px 30px;
+.center {
+  border: 2px solid black;
+  width: 300px;
+  height: 100px;
+  margin: auto;
 }

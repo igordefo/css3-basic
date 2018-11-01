@@ -3,7 +3,12 @@ body {
   margin: 0;
 }
 
-#padding-test {
-  padding: 40px 20px;
-  border: 2px solid #000;
+.padding {
+  border: 2px solid orangered;
+  margin: 20px 30px 15px 0px;
+}
+
+.margin {
+  border: 2px solid orangered;
+  margin: 25px 0px 15px 30px;
 }

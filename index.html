@@ -8,6 +8,20 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="center">Center</div>
+  <form class="form">
+    <fieldset>
+      <legend>Войдите <span>или <a class="form__link" href="#">создайте аккаунт</a></span></legend>
+      <input type="email" placeholder="Адрес электронной почты" class="form__input">
+      <input type="password" placeholder="Пароль" class="form__input">
+    </fieldset>
+    <p class="form__description">
+      Эта страница защищена функцией reCAPTCHA и подпадает под 
+      <a class="form__link" href="#">Политику конфиденциальности</a> и <a class="form__link" href="#">Условия использования</a> Google.
+    </p>
+    <label class="form__checkbox"><input class="form__checkbox-input" type="checkbox">Запомнить</label>
+    <button class="form__enter">Войти</button>
+    <button class="form__enter form__enter-social">Войти через Google</button>
+    <a href="#" class="form__link">Забыли пароль?</a>
+  </form>
 </body>
 </html>
